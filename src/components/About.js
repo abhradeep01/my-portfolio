@@ -1,13 +1,14 @@
 import React from 'react';
 import data from '../data/info.json';
-
-function About({heading,describe,icons = new Array([])}) {
+import Technology from './Technology';
+import { knownTech,learningTech } from '../data/IconText';
+function About({wdth}) {
   return (
-    <div className="w-full flex flex-col gap-6">
+    <div className={`${wdth?'w-[80%] x-sm:w-[98%]':'w-full'} flex flex-col gap-6 x-sm:w-[98%]`}>
         <div className="w-full flex flex-col gap-2">
           <div>
             <h2 className="text-xl font-bold text-green-600 capitalize">
-              {heading}
+              {data.about.heading}
             </h2>
           </div>
           <div>
@@ -16,7 +17,7 @@ function About({heading,describe,icons = new Array([])}) {
                 I'am {data.frontName+" Debnath"}
               </span>
               <span className="text-white m-1">
-                {describe}
+                {data.about.describe}
               </span>
             </p>
           </div>
@@ -27,11 +28,29 @@ function About({heading,describe,icons = new Array([])}) {
               Technologies I knew:
             </h3>
           </div>
-          <div className="w-full flex flex-row gap-2 flex-wrap justify-between">
-            {icons.map((item,index)=>(
-              <div className='shadow shadow-white rounded-md' key={index}>
-                {item}
-              </div>
+          <div className="w-full flex flex-row gap-12 flex-wrap x-sm:gap-6">
+            {knownTech.map((item,index)=>(
+              <Technology
+                key={index}
+                icon={item.icon}
+                name={item.text}
+              />
+            ))}
+          </div>
+        </div>
+        <div className="w-full flex flex-col gap-5 x-sm:gap-3">
+          <div>
+            <h3 className='text-blue-500 text-lg font-semibold capitalize'>
+              technologies i'm learning right now:
+            </h3>
+          </div>
+          <div className="w-full flex flex-row gap-12 flex-wrap x-sm:gap-6">
+            {learningTech.map((item,index)=>(
+              <Technology
+                key={index}
+                icon={item.icon}
+                name={item.text}
+              />
             ))}
           </div>
         </div>

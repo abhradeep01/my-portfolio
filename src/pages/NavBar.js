@@ -8,7 +8,7 @@ function NavBar() {
   const [dropDown,setDropDown] = useState(false);
   return (
     <>
-      <div className="sticky top-0 right-0 left-0 z-10 w-full h-16 flex flex-row justify-around items-center bg-[#030740] x-sm:justify-between x-sm:px-2">
+      <div className="sticky top-0 right-0 left-0 z-10 w-full h-16 flex flex-row justify-around items-center bg-yellow-700 x-sm:justify-between x-sm:px-2">
         <div className='w-9'>
             <Link to={'/'}>
               <img src={data.logoPath} alt="portfolio logo" className='rounded-md'/>
@@ -17,7 +17,7 @@ function NavBar() {
         <div className="w-1/2 flex flex-row justify-around x-sm:hidden">
           {data.navContent.map((item,index)=>(
             <div>
-              <Link key={index} to={item.path} children={item.text} className='text-[0.9rem] text-white font-semibold capitalize hover:underline underline-offset-4 hover:duration-75' />
+              <Link key={index} to={item.path} children={item.text} className='text-base text-white font-semibold capitalize hover:underline underline-offset-4 hover:duration-75' />
             </div>
           ))}
         </div>

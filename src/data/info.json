@@ -3,16 +3,33 @@
     "name":"Abhradeep Debnath",
     "frontName":"Abhradeep",
     "tagline":"Creating Responsive, User-Friendly web experiences with modern technologies.",
-    "link":[
-        "www.linkedin.com/in/abhradeep-debnath-59b975254",
-        "upwork.com",
-        "freelancer.com"
+    "socialMedia":[
+        {
+            "link":"http://www.linkedin.com/in/abhradeep-debnath-59b975254",
+            "icon":"./img/logo/linkedin.svg",
+            "text":"LinkedIn"
+        },
+        {
+            "link":"http://upwork.com",
+            "icon":"./img/logo/upwork.svg",
+            "text":"UpWork"
+        },
+        {
+            "link":"http://freelancer.com",
+            "icon":"./img/logo/freelancer.svg",
+            "text":"Freelancer.com"
+        },
+        {
+            "link":"http://fiverr.com",
+            "icon":"./img/logo/fiverr.svg",
+            "text":"Fiverr"
+        }
     ],
     "logoPath":"./img/portfoliologo.ico",
     "profilePhoto":"./img/profileimg.jpg",
     "navContent":[
         {
-            "path":"/home",
+            "path":"/",
             "text":"home"
         },
         {
@@ -39,37 +56,37 @@
     "frontendDevelopment":[
         {
             "skill":"HTML5 & CSS3",
-            "describe":"Proficient in creating well-structured, semantic HTML5 code combined with modern, responsive CSS3 layouts. Skilled in using CSS methodologies to ensure web applications are visually appealing and compatible across devices."
+            "describe":"Proficient in writing clean, semantic HTML5 code and crafting responsive designs with modern CSS3."
         },
         {
             "skill":"JavaScript (ES6+)",
-            "describe":"A strong command of JavaScript (ES6+), including advanced features like arrow functions, promises, async/await, and modules. Capable of writing clean, efficient, and maintainable code for interactive web pages."
+            "describe":"Experienced in modern JavaScript, using ES6+ features like promises, async/await, and modules for interactive web applications."
         },
         {
             "skill":"React.js",
-            "describe":"Experienced in building dynamic, high-performance applications with React.js. Proficient in hooks, functional components, and state management, focusing on reusable, efficient components."
+            "describe":"Skilled in building dynamic, component-based UIs using React.js, with expertise in state management and hooks."
         },
         {
             "skill":"Tailwind CSS",
-            "describe":"Expert in Tailwind CSS, creating custom, responsive, and utility-first designs quickly and efficiently without writing excessive custom CSS. Focused on building sleek, minimal UI components."
+            "describe":"Adept in using Tailwind CSS for creating fast, responsive, and utility-first designs."
         }
     ],
     "coreConceptsTools":[
         {
+            "skill":"JSON",
+            "describe":"Proficient in working with JSON for data exchange between the frontend and backend, handling API responses and structured data."
+        },
+        {
             "skill":"DOM Manipulation",
-            "describe":"Skilled in manipulating the DOM using vanilla JavaScript and React, creating dynamic and interactive user interfaces that enhance the user experience."
+            "describe":"Proficient in working with JSON for data exchange between the frontend and backend, handling API responses and structured data."
         },
         {
             "skill":"React Router DOM",
-            "describe":"Experienced in implementing navigation in single-page applications (SPA) using React Router DOM, managing routes, protected routes, and dynamic URL parameters for a smooth, intuitive user experience."
+            "describe":"Skilled in efficiently manipulating the DOM using vanilla JavaScript and React for interactive user experiences."
         },
         {
             "skill":"Git & GitHub",
-            "describe":"Proficient in using Git for version control, collaborating on projects via GitHub, branching, merging, and handling pull requests. Strong understanding of efficient version control workflows to track project changes."
-        },
-        {
-            "skill":"JSON",
-            "describe":"Proficient in working with JSON for data exchange between the frontend and backend, handling API responses and structured data."
+            "describe":"Experienced in version control using Git, collaborating on projects via GitHub, managing branches, and handling pull requests."
         }
     ]
 }

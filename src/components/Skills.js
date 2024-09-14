@@ -1,11 +1,11 @@
 import React from 'react';
 import Potrate from './Potrate';
 import data from '../data/info.json';
-function Skills() {
+function Skills({wdth}) {
   return (
-    <div className="">
+    <div className={`${wdth?'w-[80%] x-sm:w-[98%]':'w-full'} flex flex-col gap-2.5`}>
         <div>
-            <h2 className="text-xl font-bold text-green-600 capitalize py-2">
+            <h2 className="text-xl font-bold text-green-600 capitalize">
                 Skills
             </h2>
         </div>

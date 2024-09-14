@@ -23,6 +23,27 @@ function HeaderProfile() {
                 {data.tagline}
               </h4>
             </div>
+            <div className="w-full flex flex-col gap-4">
+              <div>
+                <h4 className="text-white capitalize text-base font-semibold">
+                  connect with me: 
+                </h4>
+              </div>
+              <div className="w-full flex flex-row gap-4 flex-wrap">
+                {data.socialMedia.map((item,index)=>(
+                  <button className='flex flex-row items-center gap-1 bg-white rounded p-1'>
+                    <div className='w-8'>
+                      <img src={item.icon} alt="" />
+                    </div>
+                    <div>
+                      <a href={item.link} target='_blank' rel="noreferrer noreferrer" className='text-base font-semibold'>
+                        {item.text}
+                      </a>
+                    </div>
+                  </button>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
         <div className="w-1/3 x-sm:w-full x-sm:p-8">
