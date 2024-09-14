@@ -1,11 +1,75 @@
 {
     "occupency":"Freelance Frontend Web Developer",
     "name":"Abhradeep Debnath",
-    "subHead":"Freelance Frontend Web Developer",
-    "describe":"Hello! I’m Abhradeep Debnath, a passionate freelance frontend web developer ready to bring your digital ideas to life. With expertise in HTML, CSS, and JavaScript, I create visually appealing and highly functional websites and applications. My skill set includes React, React Router DOM, and React Redux, allowing me to build dynamic, interactive user interfaces. I also use Tailwind CSS for efficient styling and maintain code quality with Git and GitHub. As a fresh face in the industry, I am enthusiastic about collaborating with clients to deliver tailored solutions that meet their needs and exceed their expectations.",
+    "frontName":"Abhradeep",
+    "tagline":"Creating Responsive, User-Friendly web experiences with modern technologies.",
     "link":[
         "www.linkedin.com/in/abhradeep-debnath-59b975254",
         "upwork.com",
         "freelancer.com"
+    ],
+    "logoPath":"./img/portfoliologo.ico",
+    "profilePhoto":"./img/profileimg.jpg",
+    "navContent":[
+        {
+            "path":"/home",
+            "text":"home"
+        },
+        {
+            "path":"/about",
+            "text":"about me"
+        },
+        {
+            "path":"skill",
+            "text":"skills"
+        },
+        {
+            "path":"/projects",
+            "text":"projects"
+        },
+        {
+            "path":"/contact",
+            "text":"contact"
+        }
+    ],
+    "about":{
+        "heading":"about me",
+        "describe":"a freelance frontend web developer with a passion for creating sleek, responsive websites and web applications. With expertise in HTML, CSS, JavaScript, and React, I specialize in building user-friendly interfaces that are both visually appealing and highly functional. I utilize Tailwind CSS for efficient, modern design and React Router DOM for smooth navigation in single-page applications. I’m proficient in Git and GitHub for seamless collaboration and version control. Whether you're a business looking to establish an online presence or a team needing frontend support, I’m here to deliver solutions that are fast, reliable, and scalable."
+    },
+    "frontendDevelopment":[
+        {
+            "skill":"HTML5 & CSS3",
+            "describe":"Proficient in creating well-structured, semantic HTML5 code combined with modern, responsive CSS3 layouts. Skilled in using CSS methodologies to ensure web applications are visually appealing and compatible across devices."
+        },
+        {
+            "skill":"JavaScript (ES6+)",
+            "describe":"A strong command of JavaScript (ES6+), including advanced features like arrow functions, promises, async/await, and modules. Capable of writing clean, efficient, and maintainable code for interactive web pages."
+        },
+        {
+            "skill":"React.js",
+            "describe":"Experienced in building dynamic, high-performance applications with React.js. Proficient in hooks, functional components, and state management, focusing on reusable, efficient components."
+        },
+        {
+            "skill":"Tailwind CSS",
+            "describe":"Expert in Tailwind CSS, creating custom, responsive, and utility-first designs quickly and efficiently without writing excessive custom CSS. Focused on building sleek, minimal UI components."
+        }
+    ],
+    "coreConceptsTools":[
+        {
+            "skill":"DOM Manipulation",
+            "describe":"Skilled in manipulating the DOM using vanilla JavaScript and React, creating dynamic and interactive user interfaces that enhance the user experience."
+        },
+        {
+            "skill":"React Router DOM",
+            "describe":"Experienced in implementing navigation in single-page applications (SPA) using React Router DOM, managing routes, protected routes, and dynamic URL parameters for a smooth, intuitive user experience."
+        },
+        {
+            "skill":"Git & GitHub",
+            "describe":"Proficient in using Git for version control, collaborating on projects via GitHub, branching, merging, and handling pull requests. Strong understanding of efficient version control workflows to track project changes."
+        },
+        {
+            "skill":"JSON",
+            "describe":"Proficient in working with JSON for data exchange between the frontend and backend, handling API responses and structured data."
+        }
     ]
 }
