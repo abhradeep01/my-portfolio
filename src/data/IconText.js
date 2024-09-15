@@ -1,4 +1,4 @@
-import { Css, Ejs, ExpressJs, Git, Github, Html, Js, Jsx, MySql, NodeJs, Tailwindcss } from "../components/icons";
+import { Css, Ejs, ExpressJs, Git, Github, Html, Js, Jsx, Mongodb, MySql, NodeJs, Pug, Tailwindcss } from "../components/icons";
 
 export const knownTech =[
     {
@@ -45,7 +45,15 @@ export const learningTech = [
         text:"EJS"
     },
     {
+        icon:<Pug/>,
+        text:"PUG"
+    },
+    {
         icon:<MySql/>,
         text:"MYSQL"
+    },
+    {
+        icon:<Mongodb/>,
+        text:"MONGODB"
     }
 ]

@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import About from './components/About';
+import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Skills from './components/Skills';
 import HeaderProfile from './pages/HeaderProfile';
@@ -31,6 +32,7 @@ function App() {
           <Route index path='/' element={<Home />} />
           <Route path='/about' element={<About wdth={true}/>}/>
           <Route path='/skill' element={<Skills wdth={true}/>}/>
+          <Route path='/contact' element={<Contact wdth={true}/>}/>
           <Route path='*' element={<NotFound />} />
         </Route>
       </Routes>
