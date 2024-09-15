@@ -25,11 +25,22 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Abhradeep's Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body{
+        position: relative;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:2rem;
+        margin-bottom:2rem;
+        background-color:black;
+      }
+    </style>
   </head>
-  <body class="bg-black">
+  <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root" class="w-full flex flex-col items-center gap-8 mb-8"></div>
+    <div id="root"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

@@ -6,7 +6,7 @@ module.exports = {
       screens:{
         "x-sm":{
           "min":"0px",
-          "max":"490px"
+          "max":"480px"
         }
       }
     },
