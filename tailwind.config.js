@@ -7,6 +7,10 @@ module.exports = {
         "x-sm":{
           "min":"0px",
           "max":"480px"
+        },
+        "md":{
+          "min":"768px",
+          "max":"1024px"
         }
       }
     },

@@ -27,7 +27,7 @@ function Contact({wdth}) {
               </h4>
             </div>
           </div>
-          <div className="w-[25%] flex flex-col gap-4 md:w-[50%] x-sm:w-full">
+          <div className="w-[30%] flex flex-col justify-between gap-4 md:w-[50%] x-sm:w-full">
             <Input
               inputName={'Name'}
               type={'text'}
