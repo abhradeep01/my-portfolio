@@ -1,6 +1,7 @@
 import About from './components/About';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
+import Projects from './components/Projects';
 import Skills from './components/Skills';
 import HeaderProfile from './pages/HeaderProfile';
 import Main from './pages/Main';
@@ -31,6 +32,7 @@ function App() {
           <Route path='/about' element={<About wdth={true}/>}/>
           <Route path='/skill' element={<Skills wdth={true}/>}/>
           <Route path='/contact' element={<Contact wdth={true}/>}/>
+          <Route path='/projects' element={<Projects wdth={true}/>}/>
           <Route path='*' element={<NotFound />} />
         </Route>
       </Routes>

@@ -50,7 +50,7 @@ function Contact({wdth}) {
               textArea={true}
             />
             <button type="submit" className="w-fit bg-white text-base font-semibold px-1.5 py-0.5 rounded">
-              submit
+            submit
             </button>
           </div>
         </div>

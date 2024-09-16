@@ -1,6 +1,6 @@
 {
     "occupency":"Freelance Frontend Web Developer",
-    "name":"Abhradeep Debnath",
+    "name":"Abhradeep Debnath",     
     "frontName":"Abhradeep",
     "tagline":"Creating Responsive, User-Friendly web experiences with modern technologies.",
     "gmail":"abhradeepdebnath@gmail.com",
@@ -44,6 +44,10 @@
         {
             "path":"/contact",
             "text":"contact"
+        },
+        {
+            "path":"/projects",
+            "text":"projects"
         }
     ],
     "about":{
@@ -84,6 +88,93 @@
         {
             "skill":"Git & GitHub",
             "describe":"Experienced in version control using Git, collaborating on projects via GitHub, managing branches, and handling pull requests."
+        }
+    ],
+    "projects":[
+        {
+            "projectName":"Online Vegetable Store",
+            "projectUi":"./img/ui/vegetablestore.png",
+            "technologies":[
+                {
+                    "text":"HTML",
+                    "color":"rgb(249 115 22)"
+                },
+                {
+                    "text":"Css",
+                    "color":"rgb(59 130 246)"
+                },
+                { 
+                    "text":"Javascript",
+                    "color":"rgb(234 179 8)"
+                }
+            ],
+            "github":"https://github.com/abhradeep01/vegetable-card.git"
+        },
+        {
+            "projectName":"E-commerce Store",
+            "projectUi":"./img/ui/e-commercestore.png",
+            "technologies":[
+                {
+                    "text":"HTML",
+                    "color":"rgb(249 115 22)"
+                },
+                {
+                    "text":"Css",
+                    "color":"rgb(59 130 246)"
+                },
+                { 
+                    "text":"Javascript",
+                    "color":"rgb(234 179 8)"
+                },
+                {
+                    "text":"Tailwindcss",
+                    "color":"rgb(20 184 166)"
+                },
+                {
+                    "text":"React",
+                    "color":"rgb(6 182 212)"
+                },
+                {
+                    "text":"React-router-dom",
+                    "color":"rgb(239 68 68)"
+                },
+                {
+                    "text":"Redux-Toolkit",
+                    "color":"rgb(139 92 246)"
+                }
+            ],
+            "github":"https://github.com/abhradeep01/ecommerce-tailwindcss.git"
+        },
+        {
+            "projectName":"Portfolio",
+            "projectUi":"./img/ui/portfolio.png",
+            "technologies":[
+                {
+                    "text":"HTML",
+                    "color":"rgb(249 115 22)"
+                },
+                {
+                    "text":"Css",
+                    "color":"rgb(59 130 246)"
+                },
+                { 
+                    "text":"Javascript",
+                    "color":"rgb(234 179 8)"
+                },
+                {
+                    "text":"Tailwindcss",
+                    "color":"rgb(20 184 166)"
+                },
+                {
+                    "text":"React",
+                    "color":"rgb(6 182 212)"
+                },
+                {
+                    "text":"React-router-dom",
+                    "color":"rgb(239 68 68)"
+                }
+            ],
+            "github":"https://github.com/abhradeep01/my-portfolio.git"
         }
     ]
 }
