@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useId } from 'react';
 import data from '../data/info.json';
 function Contact({wdth}) {
   return (
-    <div className={`${wdth?'w-[80%] x-sm:w-[98%]':'w-full'} flex flex-col gap-6`}>
+    <div className={`${wdth?'w-[80%] x-sm:w-[98%] x-sm:px-2':'w-full'} flex flex-col gap-6`}>
         <div>
           <h2 className="text-xl font-bold text-green-600 capitalize">
             Contact
@@ -27,7 +27,7 @@ function Contact({wdth}) {
               </h4>
             </div>
           </div>
-          <div className="w-1/2 flex flex-col gap-4 items-center x-sm:w-full">
+          <div className="w-[25%] flex flex-col gap-4 md:w-[50%] x-sm:w-full">
             <Input
               inputName={'Name'}
               type={'text'}
@@ -49,21 +49,25 @@ function Contact({wdth}) {
               id={'message'}
               textArea={true}
             />
+            <button type="submit" className="w-fit bg-white text-base font-semibold px-1.5 py-0.5 rounded">
+              submit
+            </button>
           </div>
         </div>
     </div>
   )
 }
-const Input = ({inputName,type,id,textArea}) =>{
+const Input = ({inputName,type,textArea}) =>{
+  const id = useId();
   return(
-    <div className="w-[70%] flex flex-col gap-1 x-sm:w-[90%]">
+    <div className="w-full flex flex-col gap-1 x-sm:w-full">
       <label htmlFor={id} className='w-full text-sm font-semibold text-white'>
         {inputName}
       </label>
       {
         textArea?
-        <textarea name={inputName} id={id} className='w-full h-20 bg-gray-400 rounded'></textarea>:
-        <input type={type} id={id} className='w-full h-8 x-sm:h-10 bg-gray-400 rounded' />
+        <textarea name={inputName} id={id} className='w-full h-16 bg-gray-400 rounded p-1.5'></textarea>:
+        <input type={type} id={id} className='w-full h-6 x-sm:h-8 bg-gray-400 rounded p-1.5' />
       }
     </div>
   )

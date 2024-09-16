@@ -8,7 +8,7 @@ function NavBar() {
   const [dropDown,setDropDown] = useState(false);
   return (
     <>
-      <div className="sticky top-0 right-0 left-0 z-10 w-full h-16 flex flex-row justify-around items-center bg-yellow-700 x-sm:justify-between x-sm:px-2">
+      <div className="sticky top-0 right-0 left-0 z-10 w-full h-16 flex flex-row justify-around items-center bg-sky-800 x-sm:justify-between x-sm:px-2">
         <div className='w-9'>
             <Link to={'/'}>
               <img src={data.logoPath} alt="portfolio logo" className='rounded-md'/>

@@ -1,10 +1,9 @@
 import React from 'react';
 import data from '../data/info.json';
-import Technology from './Technology';
 import { knownTech,learningTech } from '../data/IconText';
 function About({wdth}) {
   return (
-    <div className={`${wdth?'w-[80%] x-sm:w-[98%]':'w-full'} flex flex-col gap-6 x-sm:w-[98%]`}>
+    <div className={`${wdth?'w-[80%] x-sm:w-[98%] x-sm:px-2':'w-full'} flex flex-col gap-6 x-sm:w-[98%]`}>
         <div className="w-full flex flex-col gap-2">
           <div>
             <h2 className="text-xl font-bold text-green-600 capitalize">
@@ -30,11 +29,9 @@ function About({wdth}) {
           </div>
           <div className="w-full flex flex-row gap-12 flex-wrap x-sm:gap-6">
             {knownTech.map((item,index)=>(
-              <Technology
-                key={index}
-                icon={item.icon}
-                name={item.text}
-              />
+              <div>
+                {item.icon}
+              </div>
             ))}
           </div>
         </div>
@@ -46,11 +43,9 @@ function About({wdth}) {
           </div>
           <div className="w-full flex flex-row gap-12 flex-wrap x-sm:gap-6">
             {learningTech.map((item,index)=>(
-              <Technology
-                key={index}
-                icon={item.icon}
-                name={item.text}
-              />
+              <div>
+                {item.icon}
+              </div>
             ))}
           </div>
         </div>

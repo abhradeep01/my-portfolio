@@ -7,7 +7,7 @@ function Technology({icon,name}) {
             {icon}
         </div>
         <div>
-            <h4 className="text-sm font-medium text-white">
+            <h4 className="text-sm font-semibold text-white">
                 {name}
             </h4>
         </div>

@@ -3,7 +3,7 @@ import Potrate from './Potrate';
 import data from '../data/info.json';
 function Skills({wdth}) {
   return (
-    <div className={`${wdth?'w-[80%] x-sm:w-[98%]':'w-full'} flex flex-col gap-2.5`}>
+    <div className={`${wdth?'w-[80%] x-sm:w-[98%] x-sm:px-2':'w-full'} flex flex-col gap-2.5`}>
         <div>
             <h2 className="text-xl font-bold text-green-600 capitalize">
                 Skills

@@ -1,4 +1,4 @@
-import { Css, Ejs, ExpressJs, Git, Github, Html, Js, Jsx, Mongodb, MySql, NodeJs, Pug, Tailwindcss } from "../components/icons";
+import { Css, Ejs, ExpressJs, Git, Github, Html, Js, Jsx, Mongodb, Mongoose, MySql, NodeJs, Pug, Reduxjs, Routerjs, Tailwindcss } from "../components/icons";
 
 export const knownTech =[
     {
@@ -7,53 +7,65 @@ export const knownTech =[
     },
     {
         icon:<Css/>,
-        text:"CSS"
+        text:"css"
     },
     {
         icon:<Tailwindcss/>,
-        text:"TAILWINDCSS"
+        text:"tailwindcss"
     },
     {
         icon:<Js/>,
-        text:"JAVASCRIPT"
+        text:"javascript"
     },
     {
         icon:<Jsx/>,
-        text:"REACT"
+        text:"react"
     },
     {
         icon:<Git/>,
-        text:"GIT"
+        text:"git"
     },
     {
         icon:<Github/>,
-        text:"GITHUB"
+        text:"github"
+    },
+    {
+        icon:<Routerjs/>,
+        text:"react router"
+    },
+    {
+        icon:<Reduxjs/>,
+        text:"reduxjs"
     }
 ]
 
 export const learningTech = [
     {
         icon:<NodeJs/>,
-        text:"NODEJS"
+        text:"nodejs"
     },
     {
         icon:<ExpressJs/>,
-        text:"EXPRESSJS"
+        text:"expressjs"
     },
     {
         icon:<Ejs/>,
-        text:"EJS"
+        text:"ejs"
     },
     {
         icon:<Pug/>,
-        text:"PUG"
+        text:"pug"
     },
     {
         icon:<MySql/>,
-        text:"MYSQL"
+        text:"MySql"
     },
     {
         icon:<Mongodb/>,
         text:"MONGODB"
+    },
+    {
+        icon:<Mongoose/>,
+        text:"mongoose"
     }
 ]

@@ -2,7 +2,7 @@ import React from 'react'
 import data from '../data/info.json';
 function HeaderProfile() {
   return (
-    <div className="w-[80%] flex flex-row justify-between pt-2 pb-4 x-sm:w-[98%] x-sm:flex-col-reverse">
+    <div className="w-[80%] flex flex-row justify-between pt-2 pb-4 x-sm:w-[98%] x-sm:flex-col-reverse x-sm:px-2">
         <div className="w-1/2 flex items-center x-sm:w-full">
           <div className="flex flex-col gap-8 x-sm:gap-4">
             <div>
