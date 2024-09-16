@@ -42,12 +42,12 @@
             "text":"skills"
         },
         {
-            "path":"/contact",
-            "text":"contact"
-        },
-        {
             "path":"/projects",
             "text":"projects"
+        },
+        {
+            "path":"/contact",
+            "text":"contact"
         }
     ],
     "about":{
