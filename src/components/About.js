@@ -1,6 +1,7 @@
 import React from 'react';
 import data from '../data/info.json';
 import { frontendTools, knownTech,learningTech, versionControl } from '../data/IconText';
+import Technology from './Technology';
 function About({wdth}) {
   return (
     <div className={`${wdth?'w-[80%] x-sm:w-[98%] x-sm:px-2':'w-full'} flex flex-col gap-6 x-sm:w-[98%]`}>
@@ -29,9 +30,11 @@ function About({wdth}) {
           </div>
           <div className="w-full flex flex-row gap-12 flex-wrap x-sm:gap-6">
             {knownTech.map((item,index)=>(
-              <div>
-                {item.icon}
-              </div>
+              <Technology
+                key={index}
+                icon={item.icon}
+                name={item.text}
+              />
             ))}
           </div>
         </div>
@@ -43,9 +46,11 @@ function About({wdth}) {
           </div>
           <div className="w-full flex flex-row gap-12 flex-wrap x-sm:gap-6">
             {frontendTools.map((item,index)=>(
-              <div>
-                {item.icon}
-              </div>
+              <Technology
+                key={index}
+                icon={item.icon}
+                name={item.text}
+              />
             ))}
           </div>
         </div>
@@ -57,9 +62,11 @@ function About({wdth}) {
           </div>
           <div className="w-full flex flex-row gap-12 flex-wrap x-sm:gap-6">
             {versionControl.map((item,index)=>(
-              <div>
-                {item.icon}
-              </div>
+              <Technology
+                key={index}
+                icon={item.icon}
+                name={item.text}
+              />
             ))}
           </div>
         </div>
@@ -71,9 +78,11 @@ function About({wdth}) {
           </div>
           <div className="w-full flex flex-row gap-12 flex-wrap x-sm:gap-6">
             {learningTech.map((item,index)=>(
-              <div>
-                {item.icon}
-              </div>
+              <Technology
+                key={index}
+                icon={item.icon}
+                name={item.text}
+              />
             ))}
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { CreateReactApp, Css, Ejs, ExpressJs, Fiverr, Freelance, Git, Github, Html, Js, Jsx, LinkedIn, Mongodb, Mongoose, MySql, Netlify, NodeJs, Pug, Reduxjs, Render, Routerjs, Tailwindcss, Upwork, Vite } from "../components/icons";
+import { CreateReactApp, Css, Ejs, ExpressJs, Fiverr, Freelance, Git, Github, Html, Js, Json, Jsx, LinkedIn, Mongodb, Mongoose, MySql, Netlify, NodeJs, Pug, Reduxjs, Render, Routerjs, Sql, Tailwindcss, Upwork, Vite } from "../components/icons";
 
 export const knownTech =[
     {
@@ -7,29 +7,33 @@ export const knownTech =[
     },
     {
         icon:<Css/>,
-        text:"css"
+        text:"Css"
     },
     {
         icon:<Tailwindcss/>,
-        text:"tailwindcss"
+        text:"Tailwindcss"
     },
     {
         icon:<Js/>,
-        text:"javascript"
+        text:"Javascript"
     },
     {
         icon:<Jsx/>,
-        text:"react"
+        text:"React"
+    },
+    {
+        icon:<Json/>,
+        text:"JSON"
     }
 ]
 export const versionControl =[
     {
         icon:<Git/>,
-        text:"git"
+        text:"Git"
     },
     {
         icon:<Github/>,
-        text:"github"
+        text:"Github"
     },
     {
         icon:<Netlify/>,
@@ -61,19 +65,19 @@ export const frontendTools = [
 export const learningTech = [
     {
         icon:<NodeJs/>,
-        text:"nodejs"
+        text:"NodeJs"
     },
     {
         icon:<ExpressJs/>,
-        text:"expressjs"
+        text:"ExpressJs"
     },
     {
         icon:<Ejs/>,
-        text:"ejs"
+        text:"Ejs"
     },
     {
         icon:<Pug/>,
-        text:"pug"
+        text:"Pug"
     },
     {
         icon:<MySql/>,
@@ -84,15 +88,19 @@ export const learningTech = [
         text:"MONGODB"
     },
     {
+        icon:<Sql/>,
+        text:"Sql"
+    },
+    {
         icon:<Mongoose/>,
-        text:"mongoose"
+        text:"Mongoose"
     }
 ]
 export const platforms =[
     {
         icon:<LinkedIn/>,
         text:"LinkedIn",
-        link:"www.linkedin.com/in/abhradeep-debnath-59b975254"
+        link:"https://www.linkedin.com/in/abhradeep-debnath-59b975254"
     },
     {
         icon:<Upwork/>,
