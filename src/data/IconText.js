@@ -1,4 +1,4 @@
-import { Css, Ejs, ExpressJs, Git, Github, Html, Js, Jsx, Mongodb, Mongoose, MySql, NodeJs, Pug, Reduxjs, Routerjs, Tailwindcss } from "../components/icons";
+import { CreateReactApp, Css, Ejs, ExpressJs, Fiverr, Freelance, Git, Github, Html, Js, Jsx, LinkedIn, Mongodb, Mongoose, MySql, Netlify, NodeJs, Pug, Reduxjs, Render, Routerjs, Tailwindcss, Upwork, Vite } from "../components/icons";
 
 export const knownTech =[
     {
@@ -20,7 +20,9 @@ export const knownTech =[
     {
         icon:<Jsx/>,
         text:"react"
-    },
+    }
+]
+export const versionControl =[
     {
         icon:<Git/>,
         text:"git"
@@ -30,15 +32,32 @@ export const knownTech =[
         text:"github"
     },
     {
-        icon:<Routerjs/>,
-        text:"react router"
+        icon:<Netlify/>,
+        text:"Netlify"
     },
     {
-        icon:<Reduxjs/>,
-        text:"reduxjs"
+        icon:<Render/>,
+        text:"Render"
     }
 ]
-
+export const frontendTools = [
+    {
+        icon:<Reduxjs/>,
+        text:"Redux-Toolkit"
+    },
+    {
+        icon:<Routerjs/>,
+        text:"Router-Dom"
+    },
+    {
+        icon:<Vite/>,
+        text:"Vite"
+    },
+    {
+        icon:<CreateReactApp/>,
+        text:"Create-React-App"
+    }
+]
 export const learningTech = [
     {
         icon:<NodeJs/>,
@@ -67,5 +86,27 @@ export const learningTech = [
     {
         icon:<Mongoose/>,
         text:"mongoose"
+    }
+]
+export const platforms =[
+    {
+        icon:<LinkedIn/>,
+        text:"LinkedIn",
+        link:"www.linkedin.com/in/abhradeep-debnath-59b975254"
+    },
+    {
+        icon:<Upwork/>,
+        text:"Upwork",
+        link:"https://upwork.com"
+    },
+    {
+        icon:<Fiverr/>,
+        text:"Fiverr",
+        link:"https://fiverr.com"
+    },
+    {
+        icon:<Freelance/>,
+        text:"Freelancer.com",
+        link:"https://freelancer.com"
     }
 ]

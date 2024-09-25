@@ -4,28 +4,6 @@
     "frontName":"Abhradeep",
     "tagline":"Creating Responsive, User-Friendly web experiences with modern technologies.",
     "gmail":"abhradeepdebnath@gmail.com",
-    "socialMedia":[
-        {
-            "link":"http://www.linkedin.com/in/abhradeep-debnath-59b975254",
-            "icon":"./img/logo/linkedin.svg",
-            "text":"LinkedIn"
-        },
-        {
-            "link":"http://upwork.com",
-            "icon":"./img/logo/upwork.svg",
-            "text":"UpWork"
-        },
-        {
-            "link":"http://freelancer.com",
-            "icon":"./img/logo/freelancer.svg",
-            "text":"Freelancer.com"
-        },
-        {
-            "link":"http://fiverr.com",
-            "icon":"./img/logo/fiverr.svg",
-            "text":"Fiverr"
-        }
-    ],
     "logoPath":"./img/logo.ico",
     "profilePhoto":"./img/profileimg.jpg",
     "navContent":[

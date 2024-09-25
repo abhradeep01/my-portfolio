@@ -8,7 +8,7 @@ function Technology({icon,name}) {
         </div>
         <div>
             <h4 className="text-sm font-semibold text-white">
-                {name}
+              {name}
             </h4>
         </div>
     </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import data from '../data/info.json';
+import { platforms } from '../data/IconText';
 function HeaderProfile() {
   return (
     <div className="w-[80%] flex flex-row justify-between pt-2 pb-4 x-sm:w-[98%] x-sm:flex-col-reverse x-sm:px-2">
@@ -30,10 +31,10 @@ function HeaderProfile() {
                 </h4>
               </div>
               <div className="w-full flex flex-row gap-4 flex-wrap">
-                {data.socialMedia.map((item,index)=>(
+                {platforms.map((item,index)=>(
                   <button className='flex flex-row items-center gap-1 bg-white rounded p-1'>
                     <div className='w-8'>
-                      <img src={item.icon} alt="" />
+                      {item.icon}
                     </div>
                     <div>
                       <a href={item.link} target='_blank' rel="noreferrer noreferrer" className='text-base font-semibold'>
