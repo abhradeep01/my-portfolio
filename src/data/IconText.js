@@ -1,4 +1,4 @@
-import { CreateReactApp, Css, Ejs, ExpressJs, Fiverr, Freelance, Git, Github, Html, Js, Json, Jsx, LinkedIn, Mongodb, Mongoose, MySql, Netlify, NodeJs, Pug, Reduxjs, Render, Routerjs, Sql, Tailwindcss, Upwork, Vite } from "../components/icons";
+import { Api, CreateReactApp, Css, Ejs, ExpressJs, Fiverr, Freelance, Git, Github, Html, Js, Json, Jsx, LinkedIn, Mongodb, Mongoose, MySql, Netlify, NodeJs, Postman, Pug, Reduxjs, Render, Routerjs, Sql, Tailwindcss, Upwork, Vite } from "../components/icons";
 
 export const knownTech =[
     {
@@ -94,6 +94,14 @@ export const learningTech = [
     {
         icon:<Mongoose/>,
         text:"Mongoose"
+    },
+    {
+        icon:<Postman/>,
+        text:"Postman"
+    },
+    {
+        icon:<Api/>,
+        text:"Api development"
     }
 ]
 export const platforms =[

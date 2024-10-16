@@ -66,8 +66,8 @@ const Input = ({inputName,type,textArea}) =>{
       </label>
       {
         textArea?
-        <textarea name={inputName} id={id} className='w-full h-16 bg-gray-400 rounded p-1.5'></textarea>:
-        <input type={type} id={id} className='w-full h-6 x-sm:h-8 bg-gray-400 rounded p-1.5' />
+        <textarea name={inputName} id={id} className='w-full h-20 bg-gray-400 rounded p-2 outline-none'></textarea>:
+        <input type={type} id={id} className='w-full h-8 x-sm:h-10 bg-gray-400 rounded p-2 outline-none'/>
       }
     </div>
   )

@@ -73,7 +73,7 @@ function About({wdth}) {
         <div className="w-full flex flex-col gap-5 x-sm:gap-3">
           <div>
             <h3 className='text-blue-500 text-lg font-semibold capitalize'>
-              technologies i'm learning right now:
+              backend technologies i'm learning right now:
             </h3>
           </div>
           <div className="w-full flex flex-row gap-12 flex-wrap x-sm:gap-6">
