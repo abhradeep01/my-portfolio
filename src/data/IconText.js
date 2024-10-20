@@ -1,4 +1,5 @@
-import { Api, CreateReactApp, Css, Ejs, ExpressJs, Fiverr, Freelance, Git, Github, Html, Js, Json, Jsx, LinkedIn, Mongodb, Mongoose, MySql, Netlify, NodeJs, Postman, Pug, Reduxjs, Render, Routerjs, Sql, Tailwindcss, Upwork, Vite } from "../components/icons";
+import React from "react";
+import { Api, CreateReactApp, Css, Ejs, ExpressJs, Fiverr, Freelance, Git, Github, Html, Js, Json, Jsx, LinkedIn, Mongodb, Mongoose, MySql, Netlify, NodeJs, Postman, Pug, Reduxjs, Render, Routerjs, Scss, Sql, Tailwindcss, Upwork, Vite } from "../components/icons";
 
 export const knownTech =[
     {
@@ -10,16 +11,8 @@ export const knownTech =[
         text:"Css"
     },
     {
-        icon:<Tailwindcss/>,
-        text:"Tailwindcss"
-    },
-    {
         icon:<Js/>,
         text:"Javascript"
-    },
-    {
-        icon:<Jsx/>,
-        text:"React"
     },
     {
         icon:<Json/>,
@@ -60,6 +53,18 @@ export const frontendTools = [
     {
         icon:<CreateReactApp/>,
         text:"Create-React-App"
+    },
+    {
+        icon:<Jsx/>,
+        text:"React"
+    },
+    {
+        icon:<Tailwindcss/>,
+        text:"Tailwindcss"
+    },
+    {
+        icon:<Scss/>,
+        text:"Scss"
     }
 ]
 export const learningTech = [
