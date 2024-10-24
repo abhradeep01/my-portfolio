@@ -5,7 +5,7 @@
     "tagline":"Creating Responsive, User-Friendly web experiences with modern technologies.",
     "gmail":"abhradeepdebnath@gmail.com",
     "logoPath":"./img/logo.ico",
-    "profilePhoto":"./img/profileimg.jpg",
+    "profilePhoto":"./img/profileimg.png",
     "navContent":[
         {
             "path":"/",
@@ -30,7 +30,7 @@
     ],
     "about":{
         "heading":"about me",
-        "describe":"a freelance frontend web developer with a passion for creating sleek, responsive websites and web applications. With expertise in HTML, CSS, JavaScript, and React, I specialize in building user-friendly interfaces that are both visually appealing and highly functional. I utilize Tailwind CSS for efficient, modern design and React Router DOM for smooth navigation in single-page applications. I’m proficient in Git and GitHub for seamless collaboration and version control. Whether you're a business looking to establish an online presence or a team needing frontend support, I’m here to deliver solutions that are fast, reliable, and scalable."
+        "describe":"a fresher Freelance Frontend Developer passionate about building responsive and user-friendly web applications. With skills in HTML, CSS, JavaScript, and React, I create dynamic interfaces, leveraging React Router DOM for seamless navigation and Redux Toolkit for efficient state management. I design sleek user experiences using Tailwind CSS, manage dependencies with NPM, and use Git and GitHub for version control. Eager to learn and adapt, I’m committed to delivering high-quality, scalable solutions that bring clients' ideas to life."
     },
     "frontendDevelopment":[
         {

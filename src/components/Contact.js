@@ -1,6 +1,16 @@
-import React, { useId } from 'react';
+import React, { useState } from 'react';
 import data from '../data/info.json';
 function Contact({wdth}) {
+  //client's name
+  const [name,setName] = useState('');
+  //client email id
+  const [email,setEmail] = useState('');
+  //subject for which client contact
+  const [subject,setSubject] = useState('');
+  //message client send for which client contact with me
+  const [message,setMessage] = useState('');
+
+  
   return (
     <div className={`${wdth?'w-[80%] x-sm:w-[98%] x-sm:px-2':'w-full'} flex flex-col gap-6`}>
         <div>
@@ -28,47 +38,35 @@ function Contact({wdth}) {
             </div>
           </div>
           <div className="w-[30%] flex flex-col justify-between gap-4 md:w-[50%] x-sm:w-full">
-            <Input
-              inputName={'Name'}
-              type={'text'}
-              id={'name'}
-            />
-            <Input
-              inputName={'Email'}
-              type={'email'}
-              id={'email'}
-            />
-            <Input
-              inputName={'Subject'}
-              type={'text'}
-              id={'subject'}
-            />
-            <Input 
-              inputName={'Message'}
-              type={'text'}
-              id={'message'}
-              textArea={true}
-            />
+            <div className="w-full flex flex-col gap-1 x-sm:w-full">
+              <label htmlFor='name' className='w-full text-sm font-semibold text-white'>
+                Name
+              </label>
+              <input type='text' id='name' value={name} onChange={(e)=>setName(e.target.value)} className='w-full h-8 x-sm:h-10 bg-gray-400 rounded p-2 outline-none'/>
+            </div>
+            <div className="w-full flex flex-col gap-1 x-sm:w-full">
+              <label htmlFor='email' className='w-full text-sm font-semibold text-white'>
+                Email
+              </label>
+              <input type='email' id='email' value={email} onChange={(e)=>setEmail(e.target.value)} className='w-full h-8 x-sm:h-10 bg-gray-400 rounded p-2 outline-none'/>
+            </div>
+            <div className="w-full flex flex-col gap-1 x-sm:w-full">
+              <label htmlFor='subject' className='w-full text-sm font-semibold text-white'>
+                Subject
+              </label>
+              <input type='text' id='subject' value={subject} onChange={(e)=>setSubject(e.target.value)} className='w-full h-8 x-sm:h-10 bg-gray-400 rounded p-2 outline-none'/>
+            </div>
+            <div className="w-full flex flex-col gap-1 x-sm:w-full">
+              <label htmlFor='message' className='w-full text-sm font-semibold text-white'>
+                Message
+              </label>
+              <textarea type='text' name='message' id='message' value={message} onChange={(e)=>setMessage(e.target.value)} className='w-full h-20 bg-gray-400 rounded p-2 outline-none'></textarea>:
+            </div>
             <button type="submit" className="w-fit bg-white text-base font-semibold px-1.5 py-0.5 rounded">
             submit
             </button>
           </div>
         </div>
-    </div>
-  )
-}
-const Input = ({inputName,type,textArea}) =>{
-  const id = useId();
-  return(
-    <div className="w-full flex flex-col gap-1 x-sm:w-full">
-      <label htmlFor={id} className='w-full text-sm font-semibold text-white'>
-        {inputName}
-      </label>
-      {
-        textArea?
-        <textarea name={inputName} id={id} className='w-full h-20 bg-gray-400 rounded p-2 outline-none'></textarea>:
-        <input type={type} id={id} className='w-full h-8 x-sm:h-10 bg-gray-400 rounded p-2 outline-none'/>
-      }
     </div>
   )
 }

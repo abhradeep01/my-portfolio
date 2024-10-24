@@ -1,70 +1,66 @@
 import React from "react";
-import { Api, CreateReactApp, Css, Ejs, ExpressJs, Fiverr, Freelance, Git, Github, Html, Js, Json, Jsx, LinkedIn, Mongodb, Mongoose, MySql, Netlify, NodeJs, Postman, Pug, Reduxjs, Render, Routerjs, Scss, Sql, Tailwindcss, Upwork, Vite } from "../components/icons";
+import { Api, CreateReactApp, Css, Ejs, ExpressJs, Fiverr, Freelance, Git, Github, Html, Js, Json, Jsx, LinkedIn, Mongodb, Mongoose, Mui, MySql, NodeJs, Npm, Postman, Pug, Reduxjs, Routerjs, Sql, Tailwindcss, Upwork, Vite } from "../components/icons";
 
-export const knownTech =[
+export const frontendTechnology =[
     {
         icon:<Html/>,
         text:"HTML"
     },
     {
         icon:<Css/>,
-        text:"Css"
+        text:"CSS"
     },
     {
         icon:<Js/>,
         text:"Javascript"
     },
     {
+        icon: <Jsx />,
+        text:"React"
+    },
+    {
         icon:<Json/>,
         text:"JSON"
     }
 ]
-export const versionControl =[
+export const tools =[
     {
-        icon:<Git/>,
-        text:"Git"
-    },
-    {
-        icon:<Github/>,
-        text:"Github"
-    },
-    {
-        icon:<Netlify/>,
-        text:"Netlify"
-    },
-    {
-        icon:<Render/>,
-        text:"Render"
-    }
-]
-export const frontendTools = [
-    {
-        icon:<Reduxjs/>,
-        text:"Redux-Toolkit"
-    },
-    {
-        icon:<Routerjs/>,
-        text:"Router-Dom"
-    },
-    {
-        icon:<Vite/>,
-        text:"Vite"
-    },
-    {
-        icon:<CreateReactApp/>,
+        icon: <CreateReactApp />,
         text:"Create-React-App"
     },
     {
-        icon:<Jsx/>,
-        text:"React"
+        icon: <Vite />,
+        text:"Vite"
     },
     {
-        icon:<Tailwindcss/>,
-        text:"Tailwindcss"
+        icon: <Git />,
+        text:"Git"
     },
     {
-        icon:<Scss/>,
-        text:"Scss"
+        icon: <Github />,
+        text:"Github"
+    },
+    {
+        icon: <Npm />,
+        text:"NPM"
+    }
+]
+export const frameworkLibs = [
+    {
+        icon: <Tailwindcss />,
+        text:"TailwinsCss"
+    },
+    {
+        icon: <Reduxjs />,
+        text:"Redux-Toolkit"
+    },
+    {
+        icon: <Routerjs />,
+        text:"React-Router-Dom"
+    },
+    {
+        icon: <Mui/>,
+        text:"Material Ui"
     }
 ]
 export const learningTech = [
