@@ -1,6 +1,4 @@
 import React from 'react';
-import Potrate from './Potrate';
-import data from '../data/info.json';
 import { frameworkLibs, frontendTechnology, learningTech, tools } from '../data/IconText';
 import Technology from './Technology';
 function Skills({wdth}) {

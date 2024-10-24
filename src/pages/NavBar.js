@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom';
 import data from '../data/info.json';
 import { IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import DropDownNav from '../components/DropDownNav';
+
+
 function NavBar() {
   const [dropDown,setDropDown] = useState(false);
   return (
     <>
+      {/* navbr  */}
       <div className="sticky top-0 right-0 left-0 z-10 w-full h-16 flex flex-row justify-around items-center bg-sky-800 x-sm:justify-between x-sm:px-2">
         <div className='w-9'>
             <Link to={'/'}>
@@ -16,7 +18,7 @@ function NavBar() {
         </div>
         <div className="w-1/2 flex flex-row justify-around x-sm:hidden">
           {data.navContent.map((item,index)=>(
-            <div>
+            <div onClick={()=>setDropDown(!dropDown)}>
               <Link key={index} to={item.path} children={item.text} className='text-base text-white font-semibold capitalize hover:underline underline-offset-4 hover:duration-75' />
             </div>
           ))}
@@ -27,7 +29,21 @@ function NavBar() {
           </IconButton>
         </div>
       </div>
-      <DropDownNav showMenu={dropDown}/>
+      {/* drop down menu  */}
+      <div className={`transition-all ${dropDown?'fixed flex-row gap-0.5 p-1 top-[4.1rem] right-2 z-20 text-white bg-blue-950 border border-gray-400 rounded-md':null}`} style={dropDown?{display:'flex'}:{display:'none'}}>
+        {
+          data.navContent.map((item,index)=>(
+            <div className='border border-gray-300 rounded p-[0.25rem]'>
+              <Link 
+                key={index} 
+                to={item.path} 
+                children={item.text} 
+                className='text-base capitalize'
+              />
+            </div>
+          ))
+        }
+      </div>
     </>
   )
 }
