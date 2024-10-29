@@ -1,6 +1,8 @@
 import React from 'react'
 import data from '../data/info.json';
 import { platforms } from '../data/IconText';
+
+
 function HeaderProfile() {
   return (
     <div className="w-[80%] flex flex-row justify-between pt-2 pb-4 x-sm:w-[98%] x-sm:flex-col-reverse x-sm:px-2">
@@ -47,7 +49,7 @@ function HeaderProfile() {
             </div>
           </div>
         </div>
-        <div className="w-1/3 x-sm:w-full x-sm:p-8">
+        <div className="w-1/3 x-sm:w-full x-sm:p-4">
           <img src={data.profilePhoto} alt="profile-photo" />
         </div>
     </div>

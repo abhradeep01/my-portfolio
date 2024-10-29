@@ -18,7 +18,7 @@ function NavBar() {
         </div>
         <div className="w-1/2 flex flex-row justify-around x-sm:hidden">
           {data.navContent.map((item,index)=>(
-            <div onClick={()=>setDropDown(!dropDown)}>
+            <div>
               <Link key={index} to={item.path} children={item.text} className='text-base text-white font-semibold capitalize hover:underline underline-offset-4 hover:duration-75' />
             </div>
           ))}
