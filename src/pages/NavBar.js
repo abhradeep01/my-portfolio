@@ -33,7 +33,7 @@ function NavBar() {
       <div className={`transition-all ${dropDown?'fixed flex-row gap-0.5 p-1 top-[4.1rem] right-2 z-20 text-white bg-blue-950 border border-gray-400 rounded-md':null}`} style={dropDown?{display:'flex'}:{display:'none'}}>
         {
           data.navContent.map((item,index)=>(
-            <div className='border border-gray-300 rounded p-[0.25rem]'>
+            <div className='border border-gray-300 rounded p-[0.25rem]' onClick={()=>setDropDown(!dropDown)}>
               <Link 
                 key={index} 
                 to={item.path} 
