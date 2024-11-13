@@ -12,7 +12,7 @@ function Contact({wdth}) {
 
   
   return (
-    <div className={`${wdth?'w-[80%] x-sm:w-[98%] x-sm:px-2':'w-full'} flex flex-col gap-6`}>
+    <div className={`${wdth?'w-[80%] md:w-[90%] x-sm:w-[98%] x-sm:px-2':'w-full'} flex flex-col gap-6`}>
         <div>
           <h2 className="text-xl font-bold text-green-600 capitalize">
             Contact

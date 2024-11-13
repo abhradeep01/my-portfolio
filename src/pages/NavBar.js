@@ -4,7 +4,6 @@ import data from '../data/info.json';
 import { IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
-
 function NavBar() {
   const [dropDown,setDropDown] = useState(false);
   return (

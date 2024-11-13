@@ -3,7 +3,7 @@ import data from '../data/info.json';
 import ProjectFile from './ProjectFile';
 function Projects({wdth}) {
   return (
-    <div className={`${wdth?'w-[80%] x-sm:w-[98%] x-sm:px-2':'w-full'} flex flex-col gap-8`}>
+    <div className={`${wdth?'w-[80%] md:w-[90%] x-sm:w-[98%] x-sm:px-2':'w-full'} flex flex-col gap-8`}>
         <div>
             <h2 className="text-xl font-bold text-green-600 capitalize">
               projects

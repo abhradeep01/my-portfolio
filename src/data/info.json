@@ -5,7 +5,7 @@
     "tagline":"Creating Responsive, User-Friendly web experiences with modern technologies.",
     "gmail":"abhradeepdebnath@gmail.com",
     "logoPath":"./img/logo.ico",
-    "profilePhoto":"./img/profileimg.png",
+    "profilePhoto":"https://i.postimg.cc/xTxNfBZM/profileimg.png",
     "navContent":[
         {
             "path":"/",
@@ -71,7 +71,7 @@
     "projects":[
         {
             "projectName":"Online Vegetable Store",
-            "projectUi":"./img/ui/vegetablestore.png",
+            "projectUi":"https://i.postimg.cc/YCpMCyqg/vegetablestore.png",
             "technologies":[
                 {
                     "text":"HTML",
@@ -90,7 +90,7 @@
         },
         {
             "projectName":"E-commerce Store",
-            "projectUi":"./img/ui/e-commercestore.png",
+            "projectUi":"https://i.postimg.cc/9FHcvQ6L/e-commercestore.png",
             "technologies":[
                 {
                     "text":"HTML",
@@ -125,7 +125,7 @@
         },
         {
             "projectName":"Portfolio",
-            "projectUi":"./img/ui/portfolio.png",
+            "projectUi":"https://i.postimg.cc/J43RmWmM/portfolio.png",
             "technologies":[
                 {
                     "text":"HTML",

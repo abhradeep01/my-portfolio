@@ -9,8 +9,10 @@ module.exports = {
           "max":"480px"
         },
         "md":{
-          "min":"768px",
           "max":"1024px"
+        },
+        "mid-tab":{
+          max:"820px"
         }
       }
     },

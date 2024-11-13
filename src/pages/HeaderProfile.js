@@ -5,9 +5,9 @@ import { platforms } from '../data/IconText';
 
 function HeaderProfile() {
   return (
-    <div className="w-[80%] flex flex-row justify-between pt-2 pb-4 x-sm:w-[98%] x-sm:flex-col-reverse x-sm:px-2">
-        <div className="w-1/2 flex items-center x-sm:w-full">
-          <div className="flex flex-col gap-8 x-sm:gap-4">
+    <div className="w-[80%] flex flex-row justify-between mid-tab:gap-4 pt-2 pb-4 md:w-[90%] mid-tab:flex-col-reverse x-sm:w-[98%] x-sm:flex-col-reverse x-sm:px-2">
+        <div className="w-1/2 flex items-center mid-tab:w-full x-sm:w-full">
+          <div className="flex flex-col gap-6 x-sm:gap-4">
             <div>
               <span className='text-orange-400 text-lg font-semibold'>
                 Hey, I'm 
@@ -49,8 +49,8 @@ function HeaderProfile() {
             </div>
           </div>
         </div>
-        <div className="w-1/3 x-sm:w-full x-sm:p-4">
-          <img src={data.profilePhoto} alt="profile-photo" />
+        <div className="w-1/3 mid-tab:w-full x-sm:w-full mid-tab:flex mid-tab:justify-center">
+          <img src={data.profilePhoto} alt="profile-photo" className='rounded-sm' />
         </div>
     </div>
   )
