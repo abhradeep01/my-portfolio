@@ -1,12 +1,16 @@
+import { lazy, Suspense } from 'react';
 import About from './components/About';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-import HeaderProfile from './pages/HeaderProfile';
-import Main from './pages/Main';
+// import HeaderProfile from './pages/HeaderProfile';
+// import Main from './pages/Main';
 import NavBar from './pages/NavBar';
 import { Outlet,Route,Routes } from 'react-router-dom';
+
+const MainComponent = lazy(()=>import('./pages/Main'));
+const HeaderProfile = lazy(()=>import('./pages/HeaderProfile'));
 const Layout =()=>{
   return (
     <>
@@ -18,8 +22,12 @@ const Layout =()=>{
 const Home =()=>{
   return (
     <>
-      <HeaderProfile/>
-      <Main/>
+      <Suspense fallback={<p>loading</p>}>
+        <HeaderProfile/>
+      </Suspense>
+      <Suspense fallback={<p>loading</p>}>
+        <MainComponent/>
+      </Suspense>
     </>
   )
 }

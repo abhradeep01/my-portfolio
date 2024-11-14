@@ -1,6 +1,7 @@
 import React from 'react'
 import data from '../data/info.json';
 import { platforms } from '../data/IconText';
+import { Link } from 'react-router-dom';
 
 
 function HeaderProfile() {
@@ -34,23 +35,23 @@ function HeaderProfile() {
               </div>
               <div className="w-full flex flex-row gap-4 flex-wrap">
                 {platforms.map((item,index)=>(
-                  <button className='flex flex-row items-center gap-1 bg-white rounded p-1'>
-                    <div className='w-8'>
-                      {item.icon}
-                    </div>
-                    <div>
-                      <a href={item.link} target='_blank' rel="noreferrer noreferrer" className='text-base font-semibold'>
+                  <Link key={index} to={item.link} target='_blank' >
+                    <button className='flex flex-row items-center gap-1 bg-white rounded p-1'>
+                      <div className='w-8'>
+                        {item.icon}
+                      </div>
+                      <div className='text-base font-semibold'>
                         {item.text}
-                      </a>
-                    </div>
-                  </button>
+                      </div>
+                    </button>
+                  </Link>
                 ))}
               </div>
             </div>
           </div>
         </div>
-        <div className="w-1/3 mid-tab:w-full x-sm:w-full mid-tab:flex mid-tab:justify-center">
-          <img src={data.profilePhoto} alt="profile-photo" className='rounded-sm' />
+        <div className="w-1/2 mid-tab:w-full x-sm:w-full flex justify-end ">
+          <img src={data.profilePhoto} alt="profile-photo" height={400} width={400} className='rounded-sm aspect-square' />
         </div>
     </div>
   )

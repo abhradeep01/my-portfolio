@@ -14,7 +14,7 @@ function Projects({wdth}) {
           {
             data.projects.map((item,index)=>(
               <ProjectFile
-                key={index}
+                key={index+1}
                 projectName={item.projectName}
                 projectUi={item.projectUi}
                 technology={item.technologies}

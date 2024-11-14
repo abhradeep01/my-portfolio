@@ -33,7 +33,6 @@ function Contact({wdth}) {
                     {data.gmail}
                   </a>
                 </span>
-                
               </h4>
             </div>
           </div>
@@ -42,25 +41,25 @@ function Contact({wdth}) {
               <label htmlFor='name' className='w-full text-sm font-semibold text-white'>
                 Name
               </label>
-              <input type='text' id='name' value={name} onChange={(e)=>setName(e.target.value)} className='w-full h-8 x-sm:h-10 bg-gray-400 rounded p-2 outline-none'/>
+              <input type='text' id='name' value={name} autoComplete='off' onChange={(e)=>setName(e.target.value)} className='w-full h-8 x-sm:h-10 bg-gray-400 rounded p-2 outline-none'/>
             </div>
             <div className="w-full flex flex-col gap-1 x-sm:w-full">
               <label htmlFor='email' className='w-full text-sm font-semibold text-white'>
                 Email
               </label>
-              <input type='email' id='email' value={email} onChange={(e)=>setEmail(e.target.value)} className='w-full h-8 x-sm:h-10 bg-gray-400 rounded p-2 outline-none'/>
+              <input type='email' id='email' value={email} autoComplete='off' onChange={(e)=>setEmail(e.target.value)} className='w-full h-8 x-sm:h-10 bg-gray-400 rounded p-2 outline-none'/>
             </div>
             <div className="w-full flex flex-col gap-1 x-sm:w-full">
               <label htmlFor='subject' className='w-full text-sm font-semibold text-white'>
                 Subject
               </label>
-              <input type='text' id='subject' value={subject} onChange={(e)=>setSubject(e.target.value)} className='w-full h-8 x-sm:h-10 bg-gray-400 rounded p-2 outline-none'/>
+              <input type='text' id='subject' value={subject} autoComplete='off' onChange={(e)=>setSubject(e.target.value)} className='w-full h-8 x-sm:h-10 bg-gray-400 rounded p-2 outline-none'/>
             </div>
             <div className="w-full flex flex-col gap-1 x-sm:w-full">
               <label htmlFor='message' className='w-full text-sm font-semibold text-white'>
                 Message
               </label>
-              <textarea type='text' name='message' id='message' value={message} onChange={(e)=>setMessage(e.target.value)} className='w-full h-20 bg-gray-400 rounded p-2 outline-none'></textarea>:
+              <textarea type='text' name='message' id='message' value={message} autoComplete='off' onChange={(e)=>setMessage(e.target.value)} className='w-full h-20 bg-gray-400 rounded p-2 outline-none'></textarea>:
             </div>
             <button type="submit" className="w-fit bg-white text-base font-semibold px-1.5 py-0.5 rounded">
             submit

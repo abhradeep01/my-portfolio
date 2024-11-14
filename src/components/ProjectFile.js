@@ -13,7 +13,7 @@ function ProjectFile({projectName,projectUi,technology=new Array([]),githubLink,
             </h3>
         </div>
         <div>
-            <img src={projectUi} alt={projectName} />
+            <img src={projectUi} alt={projectName} width={640} height={360} className='aspect-[16/9]'/>
         </div>
         <div className="w-full flex flex-row justify-between self-end">
             <div className="w-[78%] flex flex-row flex-wrap gap-2">
