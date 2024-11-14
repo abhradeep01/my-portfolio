@@ -8,7 +8,7 @@ function HeaderProfile() {
   return (
     <div className="w-[80%] flex flex-row justify-between mid-tab:gap-4 pt-2 pb-4 md:w-[90%] mid-tab:flex-col-reverse x-sm:w-[98%] x-sm:flex-col-reverse x-sm:px-2">
         <div className="w-1/2 flex items-center mid-tab:w-full x-sm:w-full">
-          <div className="flex flex-col gap-6 x-sm:gap-4">
+          <div className="flex flex-col gap-4 x-sm:gap-4">
             <div>
               <span className='text-orange-400 text-lg font-semibold'>
                 Hey, I'm 
@@ -50,7 +50,7 @@ function HeaderProfile() {
             </div>
           </div>
         </div>
-        <div className="w-1/2 mid-tab:w-full x-sm:w-full flex justify-end ">
+        <div className="w-1/2 mid-tab:w-full x-sm:w-full flex justify-center ">
           <img src={data.profilePhoto} alt="profile-photo" height={400} width={400} className='rounded-sm aspect-square' />
         </div>
     </div>
