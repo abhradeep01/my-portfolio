@@ -16,7 +16,7 @@
             "text":"about me"
         },
         {
-            "path":"skill",
+            "path":"/skill",
             "text":"skills"
         },
         {

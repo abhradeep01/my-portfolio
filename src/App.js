@@ -22,10 +22,10 @@ const Layout =()=>{
 const Home =()=>{
   return (
     <>
-      <Suspense fallback={<p>loading</p>}>
+      <Suspense fallback={<p className='text-white'>loading</p>}>
         <HeaderProfile/>
       </Suspense>
-      <Suspense fallback={<p>loading</p>}>
+      <Suspense fallback={<p className='text-white'>loading</p>}>
         <MainComponent/>
       </Suspense>
     </>

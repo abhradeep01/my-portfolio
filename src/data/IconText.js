@@ -1,5 +1,5 @@
 import React from "react";
-import { Api, CreateReactApp, Css, Ejs, ExpressJs, Fiverr, Freelance, Git, Github, Html, Js, Json, Jsx, LinkedIn, Mongodb, Mongoose, Mui, MySql, NodeJs, Npm, Postman, Pug, Reduxjs, Routerjs, Sql, Tailwindcss, Upwork, Vite } from "../components/icons";
+import { Api, CreateReactApp, Css, Ejs, ExpressJs, Fiverr, Freelance, Git, Github, Html, Js, Json, Jsx, LinkedIn, Mongodb, Mongoose, Mui, MySql, NodeJs, Npm, Postman, Pug, Reduxjs, Routerjs, Sql, Tailwindcss, Twitter, Upwork, Vite } from "../components/icons";
 
 export const frontendTechnology =[
     {
@@ -125,5 +125,10 @@ export const platforms =[
         icon:<Freelance/>,
         text:"Freelancer.com",
         link:"https://freelancer.com"
+    },
+    {
+        icon:<Twitter/>,
+        text:"Twitter",
+        link:"https://twitter.com/AbhradeepD74811"
     }
 ]
