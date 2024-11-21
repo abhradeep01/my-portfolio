@@ -1,0 +1,161 @@
+{
+    "occupency":"Freelance Frontend Web Developer",
+    "name":"Abhradeep Debnath",     
+    "frontName":"Abhradeep",
+    "tagline":"Creating Responsive, User-Friendly web experiences with modern technologies.",
+    "gmail":"abhradeepdebnath@gmail.com",
+    "logoPath":"https://i.postimg.cc/WpyF9X3n/1cc61827-e170-44b4-9a80-0d34e4cb2b10-8.webp",
+    "profilePhoto":"https://i.postimg.cc/C1PYxPt6/profileimg.webp",
+    "navContent":[
+        {
+            "path":"/",
+            "text":"home"
+        },
+        {
+            "path":"/about",
+            "text":"about me"
+        },
+        {
+            "path":"/skill",
+            "text":"skills"
+        },
+        {
+            "path":"/projects",
+            "text":"projects"
+        },
+        {
+            "path":"/contact",
+            "text":"contact"
+        }
+    ],
+    "about":{
+        "heading":"about me",
+        "describe":"a fresher Freelance Frontend Developer passionate about building responsive and user-friendly web applications. With skills in HTML, CSS, JavaScript, and React, I create dynamic interfaces, leveraging React Router DOM for seamless navigation and Redux Toolkit for efficient state management. I design sleek user experiences using Tailwind CSS, manage dependencies with NPM, and use Git and GitHub for version control. Eager to learn and adapt, I’m committed to delivering high-quality, scalable solutions that bring clients' ideas to life."
+    },
+    "frontendDevelopment":[
+        {
+            "skill":"HTML5 & CSS3",
+            "describe":"Proficient in writing clean, semantic HTML5 code and crafting responsive designs with modern CSS3."
+        },
+        {
+            "skill":"JavaScript (ES6+)",
+            "describe":"Experienced in modern JavaScript, using ES6+ features like promises, async/await, and modules for interactive web applications."
+        },
+        {
+            "skill":"React.js",
+            "describe":"Skilled in building dynamic, component-based UIs using React.js, with expertise in state management and hooks."
+        },
+        {
+            "skill":"Tailwind CSS",
+            "describe":"Adept in using Tailwind CSS for creating fast, responsive, and utility-first designs."
+        }
+    ],
+    "coreConceptsTools":[
+        {
+            "skill":"JSON",
+            "describe":"Proficient in working with JSON for data exchange between the frontend and backend, handling API responses and structured data."
+        },
+        {
+            "skill":"DOM Manipulation",
+            "describe":"Proficient in working with JSON for data exchange between the frontend and backend, handling API responses and structured data."
+        },
+        {
+            "skill":"React Router DOM",
+            "describe":"Skilled in efficiently manipulating the DOM using vanilla JavaScript and React for interactive user experiences."
+        },
+        {
+            "skill":"Git & GitHub",
+            "describe":"Experienced in version control using Git, collaborating on projects via GitHub, managing branches, and handling pull requests."
+        }
+    ],
+    "projects":[
+        {
+            "projectName":"Online Vegetable Store",
+            "projectUi":"https://i.postimg.cc/W40htv6Y/vegetablestore.webp",
+            "technologies":[
+                {
+                    "text":"HTML",
+                    "color":"rgb(249 115 22)"
+                },
+                {
+                    "text":"Css",
+                    "color":"rgb(59 130 246)"
+                },
+                { 
+                    "text":"Javascript",
+                    "color":"rgb(234 179 8)"
+                }
+            ],
+            "github":"https://github.com/abhradeep01/vegetable-card.git",
+            "liveLink":""
+        },
+        {
+            "projectName":"E-commerce Store",
+            "projectUi":"https://i.postimg.cc/wjyt8Jtp/e-commercestore.webp",
+            "technologies":[
+                {
+                    "text":"HTML",
+                    "color":"rgb(249 115 22)"
+                },
+                {
+                    "text":"Css",
+                    "color":"rgb(59 130 246)"
+                },
+                { 
+                    "text":"Javascript",
+                    "color":"rgb(234 179 8)"
+                },
+                {
+                    "text":"Tailwindcss",
+                    "color":"rgb(20 184 166)"
+                },
+                {
+                    "text":"React",
+                    "color":"rgb(6 182 212)"
+                },
+                {
+                    "text":"React-router-dom",
+                    "color":"rgb(239 68 68)"
+                },
+                {
+                    "text":"Redux-Toolkit",
+                    "color":"rgb(139 92 246)"
+                }
+            ],
+            "github":"https://github.com/abhradeep01/ecommerce-tailwindcss.git",
+            "liveLink":""
+        },
+        {
+            "projectName":"Portfolio",
+            "projectUi":"https://i.postimg.cc/26Z6gf37/e-commercestore.webp",
+            "technologies":[
+                {
+                    "text":"HTML",
+                    "color":"rgb(249 115 22)"
+                },
+                {
+                    "text":"Css",
+                    "color":"rgb(59 130 246)"
+                },
+                { 
+                    "text":"Javascript",
+                    "color":"rgb(234 179 8)"
+                },
+                {
+                    "text":"Tailwindcss",
+                    "color":"rgb(20 184 166)"
+                },
+                {
+                    "text":"React",
+                    "color":"rgb(6 182 212)"
+                },
+                {
+                    "text":"React-router-dom",
+                    "color":"rgb(239 68 68)"
+                }
+            ],
+            "github":"https://github.com/abhradeep01/my-portfolio.git",
+            "liveLink":"https://abhradeepsportfolio.netlify.app/"
+        }
+    ]
+}
