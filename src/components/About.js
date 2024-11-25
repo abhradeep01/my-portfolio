@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function About({wdth}) {
   return (
-    <div className={`${wdth?'w-[80%] md:w-[90%] flex-row gap-4 mid-tab:flex-col-reverse x-sm:w-[98%] x-sm:px-2':'w-full'} flex x-sm:w-[98%]`}>
+    <div className={wdth?'w-[80%] md:w-[90%] flex flex-row gap-4 mid-tab:flex-col-reverse x-sm:w-[98%] x-sm:px-2':'w-full x-sm:w-[98%]'}>
         <div className={wdth?"w-[50%] mid-tab:w-full flex flex-col gap-4":"w-full flex flex-col gap-2"}>
           <div>
             <h2 className="text-xl font-bold text-green-600 capitalize">
@@ -58,7 +58,7 @@ function About({wdth}) {
         {
           wdth?
           <div className="w-1/2 mid-tab:flex mid-tab:w-full mid-tab:justify-center">
-            <img src={data.profilePhoto} alt="profile-photo"  className='aspect-[1/1] mid-tab::w-[62.5%]'/>
+            <img src={data.profilePhoto} alt="profile-photo"  className='aspect-[1/1] justify-self-end mid-tab::w-[62.5%]'/>
           </div>:
           null
         }
