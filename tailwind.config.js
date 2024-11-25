@@ -12,7 +12,7 @@ module.exports = {
           "max":"1024px"
         },
         "mid-tab":{
-          max:"820px"
+          max:"850px"
         }
       }
     },
