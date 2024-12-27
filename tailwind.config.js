@@ -5,7 +5,6 @@ module.exports = {
     extend: {
       screens:{
         "x-sm":{
-          "min":"0px",
           "max":"480px"
         },
         "md":{
@@ -13,6 +12,9 @@ module.exports = {
         },
         "mid-tab":{
           max:"850px"
+        },
+        "min-tab":{
+          max:"768px"
         }
       }
     },
